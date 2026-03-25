@@ -35,7 +35,10 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-
+        <?php if(!isset($_SESSION['username'])) : ?>
+          <li class="nav-item">
+            <a class="nav-link" href="login.php">Login</a>
+          </li>
 
 
 
