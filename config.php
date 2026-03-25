@@ -7,3 +7,5 @@
     //dbname
     $dbname = "auth-sys";
 
+    //user
+    $user = "root";
