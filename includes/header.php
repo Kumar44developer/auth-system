@@ -50,6 +50,11 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="logout.php">Logout</a></li>
 
+            
+            </ul>
+          </li>
+        <?php endif; ?>
+              
 
 
 
