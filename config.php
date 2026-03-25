@@ -1,1 +1,5 @@
+<?php 
 
+
+    //host
+    $host = "localhost";
