@@ -26,7 +26,8 @@
          VALUES (:email, :username, :mypassword)");
 
 
-
+         $insert->execute([
+          ':email' => $email,
 
 
 
