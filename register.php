@@ -47,6 +47,10 @@
     </div>
 
 
+    <div class="form-floating">
+      <input name="username" type="text" class="form-control" id="floatingInput" placeholder="username">
+      <label for="floatingInput">Username</label>
+    </div>
 
 
 
