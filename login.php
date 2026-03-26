@@ -59,7 +59,10 @@
       <label for="floatingInput">Email address</label>
     </div>
 
-
+    <div class="form-floating">
+      <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
 
 
 
