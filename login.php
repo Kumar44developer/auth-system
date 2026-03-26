@@ -23,7 +23,9 @@
 
         $data = $login->fetch(PDO::FETCH_ASSOC);
 
-
+        if($login->rowCount() > 0) {
+          
+            if(password_verify($password, $data['mypassword'])) {
 
 
 
