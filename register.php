@@ -35,7 +35,11 @@
       }
     }
 
-
+?>
+<main class="form-signin w-50 m-auto">
+  <form method="POST" action="register.php">
+    <!-- <img class="mb-4 text-center" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+    <h1 class="h3 mt-5 fw-normal text-center">Please Register</h1>
 
 
 
