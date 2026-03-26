@@ -31,7 +31,10 @@
 
               $_SESSION['username'] = $data['username'];
               $_SESSION['email'] = $data['email'];
-
+              header("location: index.php");
+            } else {
+              echo "email or password is wrong";
+            } 
 
 
 
