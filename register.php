@@ -14,7 +14,14 @@
 
       if($_POST['email'] == '' OR $_POST['username'] == '' OR $_POST['password'] == '') {
         echo "some inputs are empty";
+        echo "some inputs are empty";
+        
+      } else {
 
+
+        $email = $_POST['email'];
+        $username = $_POST['username'];
+        $password = $_POST['password'];
 
 
 
