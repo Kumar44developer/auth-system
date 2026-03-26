@@ -67,7 +67,9 @@
     <button name="submit" class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
     <h6 class="mt-3">Don't have an account  <a href="register.php">Create your account</a></h6>
 
-
+  </form>
+</main>
+<?php require "includes/footer.php"; ?>
 
 
 
