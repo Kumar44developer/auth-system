@@ -37,6 +37,17 @@
             } 
 
 
+        } else {
+          echo "email or password is wrong";
+        }
+
+
+      }
+    }
+
+
+
+?>            
 
 
 
