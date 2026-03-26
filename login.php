@@ -54,7 +54,10 @@
   <form method="POST" action="login.php">
     <h1 class="h3 mt-5 fw-normal text-center">Please login in</h1>
 
-
+    <div class="form-floating">
+      <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
 
 
 
