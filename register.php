@@ -22,7 +22,8 @@
         $email = $_POST['email'];
         $username = $_POST['username'];
         $password = $_POST['password'];
-
+        $insert = $conn->prepare("INSERT INTO users (email, username, mypassword) 
+         VALUES (:email, :username, :mypassword)");
 
 
 
