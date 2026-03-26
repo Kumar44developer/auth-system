@@ -19,7 +19,9 @@
         $login = $conn->query("SELECT * FROM users WHERE email = '$email'");
 
 
+        $login->execute();
 
+        $data = $login->fetch(PDO::FETCH_ASSOC);
 
 
 
