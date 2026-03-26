@@ -29,6 +29,8 @@
 
 
 
+              $_SESSION['username'] = $data['username'];
+              $_SESSION['email'] = $data['email'];
 
 
 
