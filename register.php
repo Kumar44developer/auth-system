@@ -62,6 +62,9 @@
     <h6 class="mt-3">Aleardy have an account?  <a href="login.php">Login</a></h6>
 
 
+  </form>
+</main>
+<?php require "includes/footer.php"; ?>
 
 
 
