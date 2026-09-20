@@ -107,18 +107,18 @@ The frontend is styled using Bootstrap 5, offering a responsive user dashboard, 
 
 ```
 project Number5/
-├── config.php                 # Centralized PDO database configuration & error handling
-├── index.php                  # Dynamic landing page and authenticated user dashboard
-├── login.php                  # Secure credential verification and session startup
-├── logout.php                 # Session termination and cache invalidation
-├── register.php               # User registration and input validation
-├── schema.sql                 # MySQL schema definition for database setup
-├── .gitignore                 # Excluded environments and temporary files
+├── config.php              
+├── index.php               
+├── login.php                 
+├── logout.php               
+├── register.php             
+├── schema.sql               
+├── .gitignore                
 ├── includes/
-│   ├── header.php             # HTML head, global styles, session bootstrap, and navbar
-│   └── footer.php             # Global scripts and footer container
+│   ├── header.php           
+│   └── footer.php           
 └── tests/
-    └── test_auth.php          # Unit test verification for hashing and sanitization
+    └── test_auth.php         
 ```
 
 ---
